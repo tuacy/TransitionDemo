@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
-            android:label="Transition主菜单">
+        <activity
+            android:name=".MainActivity"
+            android:label="Transition学习">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,23 +19,33 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".scenetransition.SceneTransitionMainActivity"
-            android:label="场景动画"/>
+        <activity
+            android:name=".scenetransition.SceneTransitionMainActivity"
+            android:label="场景动画" />
 
-        <activity android:name=".activitytransition.ActivityTransitionMainActivity"
-            android:label="Activity过渡动画"/>
+        <activity
+            android:name=".scenetransition.SceneManagerGoActivity"
+            android:label="场景Manage Go" />
 
-        <activity android:name=".shareelementtransition.ShareElementTransitionMainActivity"
-            android:label="Share Element Transition"/>
+        <activity
+            android:name=".scenetransition.SceneDelayedActivity"
+            android:label="场景Delayed" />
 
-        <activity android:name=".activity.ActivityTransitionActivity"
-            android:label="Activity转厂动画"/>
+        <activity
+            android:name=".activitytransition.ActivityTransitionMainActivity"
+            android:label="Activity过渡动画" />
 
-        <activity android:name=".SceneTransitionActivity"
-            android:label="Scene Animation"/>
+        <activity
+            android:name=".shareelementtransition.ShareElementTransitionMainActivity"
+            android:label="Share Element Transition" />
 
-        <activity android:name=".activity.TransitionToActivity"
-            android:label="Animation目标Activity"/>
+        <activity
+            android:name=".activity.ActivityTransitionActivity"
+            android:label="Activity转厂动画" />
+
+        <activity
+            android:name=".activity.TransitionToActivity"
+            android:label="Animation目标Activity" />
     </application>
 
 </manifest>
