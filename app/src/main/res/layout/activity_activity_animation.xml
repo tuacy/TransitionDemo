@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:src="@drawable/image_test"
+            android:scaleType="fitXY"
+            android:transitionName="@string/activity_transition_scene_name_0"
+            android:contentDescription="@string/app_name"/>
+
+        <ImageView
+            android:id="@+id/image_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:src="@drawable/image_two"
+            android:scaleType="fitXY"
+            android:transitionName="@string/activity_transition_scene_name_1"
+            android:contentDescription="@string/app_name"/>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/button_custom_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textAllCaps="false"
+        android:text="makeCustomAnimation" />
+
+    <Button
+        android:id="@+id/button_scale_up_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textAllCaps="false"
+        android:text="makeScaleUpAnimation" />
+
+    <Button
+        android:id="@+id/button_thumbnail_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textAllCaps="false"
+        android:text="makeThumbnailScaleUpAnimation" />
+
+    <Button
+        android:id="@+id/layout_activity_transition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textAllCaps="false"
+        android:text="makeSceneTransitionAnimation" />
+
+</LinearLayout>

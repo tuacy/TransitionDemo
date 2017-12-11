@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TransitionDemo</string>
+    <string name="activity_transition_scene_name_0">transition_name_0</string>
+    <string name="activity_transition_scene_name_1">transition_name_1</string>
+</resources>
