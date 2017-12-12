@@ -6,4 +6,53 @@
     android:padding="8dp"
     android:orientation="vertical">
 
+    <RelativeLayout
+        android:id="@+id/layout_scene_delayed_root"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_scene_delayed_one"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_mingguo_one" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_scene_delayed_two"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_mingguo_two" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_scene_delayed_three"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_mingguo_three" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_scene_delayed_four"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_mingguo_four" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_scene_transition_toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="切换场景动画" />
+
 </LinearLayout>
