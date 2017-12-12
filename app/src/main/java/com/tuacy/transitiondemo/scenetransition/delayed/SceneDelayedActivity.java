@@ -1,4 +1,4 @@
-package com.tuacy.transitiondemo.scenetransition;
+package com.tuacy.transitiondemo.scenetransition.delayed;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

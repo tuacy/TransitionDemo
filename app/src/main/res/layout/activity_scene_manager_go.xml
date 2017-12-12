@@ -1,22 +1,248 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="8dp"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <RelativeLayout
-        android:id="@+id/layout_scene_transition_root"
-        android:layout_width="match_parent"
-        android:layout_height="300dp">
-    </RelativeLayout>
-
-    <Button
-        android:id="@+id/button_scene_transition_toggle"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:text="切换场景动画"/>
+        android:padding="8dp"
+        android:orientation="vertical">
 
-</LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_scene_go_auto_transition"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@android:color/white"
+                android:background="@drawable/circle_red" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:textAllCaps="false"
+                android:text="AutoTransition" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_scene_go_change_bounds"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@android:color/white"
+                android:background="@drawable/circle_red" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:textAllCaps="false"
+                android:text="ChangeBounds" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_scene_go_change_transform"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@android:color/white"
+                android:background="@drawable/circle_red" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:textAllCaps="false"
+                android:text="ChangeTransform" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_scene_go_change_clip_bounds"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@android:color/white"
+                android:background="@drawable/circle_red" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:textAllCaps="false"
+                android:text="ChangeClipBounds" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_scene_go_change_image_transform"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@android:color/white"
+                android:background="@drawable/circle_red" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:textAllCaps="false"
+                android:text="ChangeImageTransform" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_scene_go_fade"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="@android:color/white"
+                android:background="@drawable/circle_red" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:textAllCaps="false"
+                android:text="Fade" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_scene_go_slide"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="7"
+                android:textColor="@android:color/white"
+                android:background="@drawable/circle_red" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:textAllCaps="false"
+                android:text="Slide" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_scene_go_explode"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="8"
+                android:textColor="@android:color/white"
+                android:background="@drawable/circle_red" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:textAllCaps="false"
+                android:text="Explode" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_scene_go_combination"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="9"
+                android:textColor="@android:color/white"
+                android:background="@drawable/circle_red" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:textAllCaps="false"
+                android:text="多个动画效果组合" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

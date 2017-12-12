@@ -24,11 +24,47 @@
             android:label="场景动画" />
 
         <activity
-            android:name=".scenetransition.SceneManagerGoActivity"
+            android:name=".scenetransition.managergo.SceneManagerGoActivity"
             android:label="场景Manage Go" />
 
         <activity
-            android:name=".scenetransition.SceneDelayedActivity"
+            android:name=".scenetransition.managergo.autotransition.SceneAutoTransitionActivity"
+            android:label="AutoTransition" />
+
+        <activity
+            android:name=".scenetransition.managergo.changebounds.SceneChangeBoundsActivity"
+            android:label="ChangeBounds" />
+
+        <activity
+            android:name=".scenetransition.managergo.changetransform.SceneChangeTransformActivity"
+            android:label="ChangeTransform" />
+
+        <activity
+            android:name=".scenetransition.managergo.changeclipbounds.SceneChangeClipBoundsActivity"
+            android:label="ChangeClipBounds" />
+
+        <activity
+            android:name=".scenetransition.managergo.changeimagetransform.SceneChangeImageTransformBoundsActivity"
+            android:label="ChangeImageTransform" />
+
+        <activity
+            android:name=".scenetransition.managergo.fade.SceneFadeActivity"
+            android:label="Fade" />
+
+        <activity
+            android:name=".scenetransition.managergo.slide.SceneSlideActivity"
+            android:label="Slide" />
+
+        <activity
+            android:name=".scenetransition.managergo.explode.SceneExplodeActivity"
+            android:label="Explode" />
+
+        <activity
+            android:name=".scenetransition.managergo.combination.SceneCombinationActivity"
+            android:label="多个Transition组合" />
+
+        <activity
+            android:name=".scenetransition.delayed.SceneDelayedActivity"
             android:label="场景Delayed" />
 
         <activity

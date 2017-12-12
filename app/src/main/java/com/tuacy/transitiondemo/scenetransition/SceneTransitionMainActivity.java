@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.tuacy.transitiondemo.R;
+import com.tuacy.transitiondemo.scenetransition.delayed.SceneDelayedActivity;
+import com.tuacy.transitiondemo.scenetransition.managergo.SceneManagerGoActivity;
 
 
 public class SceneTransitionMainActivity extends AppCompatActivity {

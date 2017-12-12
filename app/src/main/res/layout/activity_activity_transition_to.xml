@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:scaleType="fitXY"
-        android:src="@drawable/image_test"
+        android:src="@drawable/ic_meinv_one"
         android:transitionName="@string/activity_transition_scene_name_0"
         android:contentDescription="@string/app_name"/>
 
@@ -16,7 +16,7 @@
         android:layout_height="200dp"
         android:layout_marginTop="32dp"
         android:scaleType="fitXY"
-        android:src="@drawable/image_two"
+        android:src="@drawable/ic_meinv_two"
         android:transitionName="@string/activity_transition_scene_name_1"
         android:contentDescription="@string/app_name"/>
 

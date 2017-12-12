@@ -1,0 +1,10 @@
+<transitionManager xmlns:android="http://schemas.android.com/apk/res/android">
+    <transition
+        android:fromScene="@layout/scene_combination_start"
+        android:toScene="@layout/scene_combination_end"
+        android:transition="@transition/change_bounds" />
+    <transition
+        android:fromScene="@layout/scene_combination_start"
+        android:toScene="@layout/scene_combination_end"
+        android:transition="@transition/change_transform" />
+</transitionManager>
