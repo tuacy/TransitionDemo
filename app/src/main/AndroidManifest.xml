@@ -72,16 +72,25 @@
             android:label="Activity过渡动画" />
 
         <activity
+            android:name=".activitytransition.makecustom.MakeCustomerAnimationActivity"
+            android:label="MakeCustomerAnimation" />
+
+        <activity
+            android:name=".activitytransition.makescaleup.MakeScaleUpAnimationActivity"
+            android:label="MakeScaleUpAnimation" />
+
+        <activity
+            android:name=".activitytransition.makethumbnailscaleup.MakeThumbnailScaleUpAnimationActivity"
+            android:label="MakeThumbnailScaleUpAnimation" />
+
+        <activity
+            android:name=".activitytransition.makescenetransition.MakeSceneTransitionctivity"
+            android:label="MakeSceneTransitionAnimation" />
+
+        <activity
             android:name=".shareelementtransition.ShareElementTransitionMainActivity"
             android:label="Share Element Transition" />
 
-        <activity
-            android:name=".activity.ActivityTransitionActivity"
-            android:label="Activity转厂动画" />
-
-        <activity
-            android:name=".activity.TransitionToActivity"
-            android:label="Animation目标Activity" />
     </application>
 
 </manifest>

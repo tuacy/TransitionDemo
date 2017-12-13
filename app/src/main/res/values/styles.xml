@@ -11,7 +11,7 @@
         <item name="android:windowContentTransitions">true</item>
         <!--下面的内容要在5.0上才好用,启用转换过程都会更加流畅自然,指定进入和退出的动画可以重叠 -->
         <item name="android:windowAllowEnterTransitionOverlap">false</item>
-        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
         <!-- 指定进入和退出transitions,注意只对makeSceneTransitionAnimation -->
         <item name="android:windowEnterTransition">@transition/explode</item>
         <item name="android:windowExitTransition">@transition/explode</item>
