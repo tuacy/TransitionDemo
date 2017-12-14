@@ -84,7 +84,7 @@
             android:label="MakeThumbnailScaleUpAnimation" />
 
         <activity
-            android:name=".activitytransition.makescenetransition.MakeSceneTransitionctivity"
+            android:name=".activitytransition.makescenetransition.MakeSceneTransitionActivity"
             android:label="MakeSceneTransitionAnimation" />
 
         <activity

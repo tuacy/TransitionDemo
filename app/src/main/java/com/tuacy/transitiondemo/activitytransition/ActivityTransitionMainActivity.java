@@ -8,13 +8,12 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Pair;
 import android.view.View;
 
 import com.tuacy.transitiondemo.R;
 import com.tuacy.transitiondemo.activitytransition.makecustom.MakeCustomerAnimationActivity;
 import com.tuacy.transitiondemo.activitytransition.makescaleup.MakeScaleUpAnimationActivity;
-import com.tuacy.transitiondemo.activitytransition.makescenetransition.MakeSceneTransitionctivity;
+import com.tuacy.transitiondemo.activitytransition.makescenetransition.MakeSceneTransitionActivity;
 import com.tuacy.transitiondemo.activitytransition.makethumbnailscaleup.MakeThumbnailScaleUpAnimationActivity;
 
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -83,7 +82,7 @@ public class ActivityTransitionMainActivity extends AppCompatActivity {
 				 * 注意这里，没有带共享元素哦(共享元素的打算放到下面讲)
 				 */
 				ActivityOptions compat = ActivityOptions.makeSceneTransitionAnimation(mActivity);
-				startActivity(new Intent(mContext, MakeSceneTransitionctivity.class), compat.toBundle());
+				startActivity(new Intent(mContext, MakeSceneTransitionActivity.class), compat.toBundle());
 			}
 		});
 	}
