@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tuacy.transitiondemo">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -90,6 +93,18 @@
         <activity
             android:name=".shareelementtransition.ShareElementTransitionMainActivity"
             android:label="Share Element Transition" />
+
+        <activity
+            android:name=".shareelementtransition.activity.ActivityShareElementTransitionActivity"
+            android:label="Activity 共享元素" />
+
+        <activity
+            android:name=".shareelementtransition.activity.ActivityBrowse"
+            android:label="图片浏览" />
+
+        <activity
+            android:name=".shareelementtransition.fragment.FragmentShareElementTransitionActivity"
+            android:label="Fragment 共享元素" />
 
     </application>
 
