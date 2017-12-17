@@ -45,6 +45,7 @@ public class RecyclerCardAdapter extends RecyclerView.Adapter<RecyclerCardAdapte
 		 * 设置共享元素的名称
 		 */
 		holder.mAlbumImage.setTransitionName(ImageConstants.IMAGE_SOURCE[position]);
+		holder.mAlbumImage.setTag(ImageConstants.IMAGE_SOURCE[position]);
 	}
 
 	@Override
