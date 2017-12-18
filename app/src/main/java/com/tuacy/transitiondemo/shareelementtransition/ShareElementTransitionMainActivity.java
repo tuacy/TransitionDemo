@@ -8,9 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.tuacy.transitiondemo.R;
-import com.tuacy.transitiondemo.scenetransition.SceneTransitionMainActivity;
-import com.tuacy.transitiondemo.shareelementtransition.activity.ActivityShareElementTransitionActivity;
-import com.tuacy.transitiondemo.shareelementtransition.fragment.FragmentShareElementTransitionActivity;
+import com.tuacy.transitiondemo.shareelementtransition.browse.BrowseShareElementTransitionActivity;
+import com.tuacy.transitiondemo.shareelementtransition.sample.SampleShareElementTransitionActivity;
 
 
 public class ShareElementTransitionMainActivity extends AppCompatActivity {
@@ -29,14 +28,14 @@ public class ShareElementTransitionMainActivity extends AppCompatActivity {
 		findViewById(R.id.layout_activity_share_element).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent(mContext, ActivityShareElementTransitionActivity.class));
+				startActivity(new Intent(mContext, SampleShareElementTransitionActivity.class));
 			}
 		});
 
-		findViewById(R.id.layout_fragment_share_element).setOnClickListener(new View.OnClickListener() {
+		findViewById(R.id.layout_share_element_browse).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent(mContext, FragmentShareElementTransitionActivity.class));
+				startActivity(new Intent(mContext, BrowseShareElementTransitionActivity.class));
 			}
 		});
 	}

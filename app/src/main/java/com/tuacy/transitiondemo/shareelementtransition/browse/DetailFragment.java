@@ -1,15 +1,13 @@
-package com.tuacy.transitiondemo.shareelementtransition.activity;
+package com.tuacy.transitiondemo.shareelementtransition.browse;
 
 
 import android.animation.Animator;
-import android.animation.AnimatorSet;
 import android.graphics.Rect;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.transition.Transition;
-import android.transition.TransitionListenerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewAnimationUtils;
@@ -22,7 +20,6 @@ import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.RequestCreator;
 import com.tuacy.transitiondemo.R;
-import com.tuacy.transitiondemo.shareelementtransition.ImageConstants;
 
 public class DetailFragment extends Fragment {
 

@@ -1,4 +1,4 @@
-package com.tuacy.transitiondemo.shareelementtransition;
+package com.tuacy.transitiondemo.shareelementtransition.browse;
 
 public class ImageConstants {
 

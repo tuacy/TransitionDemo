@@ -1,4 +1,4 @@
-package com.tuacy.transitiondemo.shareelementtransition.activity;
+package com.tuacy.transitiondemo.shareelementtransition.browse;
 
 import android.view.View;
 

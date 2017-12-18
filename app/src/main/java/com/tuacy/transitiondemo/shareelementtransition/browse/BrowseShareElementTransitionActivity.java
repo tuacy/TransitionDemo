@@ -1,4 +1,4 @@
-package com.tuacy.transitiondemo.shareelementtransition.activity;
+package com.tuacy.transitiondemo.shareelementtransition.browse;
 
 import android.app.Activity;
 import android.app.ActivityOptions;
@@ -10,19 +10,16 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver;
 
 import com.tuacy.transitiondemo.R;
-import com.tuacy.transitiondemo.shareelementtransition.ImageConstants;
-import com.tuacy.transitiondemo.shareelementtransition.adapter.RecyclerCardAdapter;
 
 import java.util.List;
 import java.util.Map;
 
 
-public class ActivityShareElementTransitionActivity extends AppCompatActivity {
+public class BrowseShareElementTransitionActivity extends AppCompatActivity {
 
 	public static final String EXTRA_START_POSITION   = "start_position";
 	public static final String EXTRA_CURRENT_POSITION = "current_position";
@@ -35,7 +32,7 @@ public class ActivityShareElementTransitionActivity extends AppCompatActivity {
 	@Override
 	protected void onCreate(@Nullable Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_activity_share_element);
+		setContentView(R.layout.activity_browse_share_element);
 		initShareElement();
 		mActivity = this;
 		mContext = this;

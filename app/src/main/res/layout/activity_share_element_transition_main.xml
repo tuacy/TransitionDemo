@@ -28,13 +28,13 @@
             android:layout_gravity="center_vertical"
             android:layout_marginStart="8dp"
             android:textAllCaps="false"
-            android:text="Activity　共享元素" />
+            android:text="简单共享元素实例" />
 
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/layout_fragment_share_element"
+        android:id="@+id/layout_share_element_browse"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:background="?android:attr/selectableItemBackground"
@@ -55,7 +55,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginStart="8dp"
             android:textAllCaps="false"
-            android:text="Fragment 共享元素" />
+            android:text="共享元素实例(图片浏览)" />
 
 
     </LinearLayout>

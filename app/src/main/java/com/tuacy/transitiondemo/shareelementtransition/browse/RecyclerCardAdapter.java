@@ -1,4 +1,4 @@
-package com.tuacy.transitiondemo.shareelementtransition.adapter;
+package com.tuacy.transitiondemo.shareelementtransition.browse;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,7 +9,6 @@ import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 import com.tuacy.transitiondemo.R;
-import com.tuacy.transitiondemo.shareelementtransition.ImageConstants;
 
 public class RecyclerCardAdapter extends RecyclerView.Adapter<RecyclerCardAdapter.CardHolder> {
 

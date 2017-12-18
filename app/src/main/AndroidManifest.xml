@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme.WindowTransition">
         <activity
             android:name=".MainActivity"
             android:label="Transition学习">
@@ -91,20 +91,29 @@
             android:label="MakeSceneTransitionAnimation" />
 
         <activity
+            android:theme="@style/AppTheme"
             android:name=".shareelementtransition.ShareElementTransitionMainActivity"
             android:label="Share Element Transition" />
 
         <activity
-            android:name=".shareelementtransition.activity.ActivityShareElementTransitionActivity"
-            android:label="Activity 共享元素" />
+            android:theme="@style/AppTheme"
+            android:name=".shareelementtransition.browse.BrowseShareElementTransitionActivity"
+            android:label="共享元素实例－图片浏览" />
 
         <activity
-            android:name=".shareelementtransition.activity.ActivityBrowse"
+            android:theme="@style/AppTheme"
+            android:name=".shareelementtransition.browse.ActivityBrowse"
             android:label="图片浏览" />
 
         <activity
-            android:name=".shareelementtransition.fragment.FragmentShareElementTransitionActivity"
-            android:label="Fragment 共享元素" />
+            android:theme="@style/AppTheme"
+            android:name=".shareelementtransition.sample.SampleShareElementTransitionActivity"
+            android:label="简单共享元素实例" />
+
+        <activity
+            android:theme="@style/AppTheme"
+            android:name=".shareelementtransition.sample.NextShareElementTransitionActivity"
+            android:label="简单共享元素实例" />
 
     </application>
 

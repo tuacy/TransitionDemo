@@ -1,4 +1,4 @@
-package com.tuacy.transitiondemo.shareelementtransition.activity;
+package com.tuacy.transitiondemo.shareelementtransition.browse;
 
 
 import android.app.SharedElementCallback;
@@ -10,13 +10,11 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.tuacy.transitiondemo.R;
-import com.tuacy.transitiondemo.shareelementtransition.ImageConstants;
 
 import java.util.List;
 import java.util.Map;
@@ -45,8 +43,8 @@ public class ActivityBrowse extends AppCompatActivity {
 	public void finishAfterTransition() {
 		mIsReturning = true;
 		Intent data = new Intent();
-		data.putExtra(ActivityShareElementTransitionActivity.EXTRA_START_POSITION, mStartPosition);
-		data.putExtra(ActivityShareElementTransitionActivity.EXTRA_CURRENT_POSITION, mCurrentPosition);
+		data.putExtra(BrowseShareElementTransitionActivity.EXTRA_START_POSITION, mStartPosition);
+		data.putExtra(BrowseShareElementTransitionActivity.EXTRA_CURRENT_POSITION, mCurrentPosition);
 		setResult(RESULT_OK, data);
 		super.finishAfterTransition();
 	}
