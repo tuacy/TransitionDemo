@@ -55,7 +55,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginStart="8dp"
             android:textAllCaps="false"
-            android:text="共享元素实例(图片浏览)" />
+            android:text="共享元素实例(更新共享元素)" />
 
 
     </LinearLayout>

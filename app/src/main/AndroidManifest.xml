@@ -98,7 +98,7 @@
         <activity
             android:theme="@style/AppTheme"
             android:name=".shareelementtransition.browse.BrowseShareElementTransitionActivity"
-            android:label="共享元素实例－图片浏览" />
+            android:label="共享元素实例－更新共享元素" />
 
         <activity
             android:theme="@style/AppTheme"

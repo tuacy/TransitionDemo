@@ -11,6 +11,12 @@ import java.util.Map;
 
 public abstract class CallbackTemp {
 
+	/**
+	 *
+	 * @param sharedElementNames
+	 * @param sharedElements
+	 * @param sharedElementSnapshots
+	 */
 	public void onSharedElementStart(List<String> sharedElementNames,
 									 List<View> sharedElements, List<View> sharedElementSnapshots) {}
 
